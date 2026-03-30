@@ -1,0 +1,14 @@
+CREATE DATABASE CustomeDB;
+USE CustomeDB;
+CREATE TABLE Customer(
+    CustomerID INT PRIMARY KEY,
+    CustomerName VARCHAR(50),
+    CustomerAGe INT
+);
+INSERT INTO Customer
+VALUES
+(1,'GNANESWAR',21),
+(2,'SUBHASH',22),
+(3,'ANJANI PRASAD',23),
+(4,'LAKSHMI',25);
+SELECT * FROM Customer;
